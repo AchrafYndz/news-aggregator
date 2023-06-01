@@ -24,17 +24,15 @@ export default function Admin() {
       })
       .then((response) => {
         if (!response.data.is_admin) {
-          window.location.href = "/403";
+          window.location.href = "./403"
         } else if (response.data.status !== 200) {
-          window.location.href = "/403";
+          window.location.href = "./403";
         }
       })
       .catch((error) => {
         console.log(error);
       });
   }, []);
-
-  // prevent unauthorized access to admin page
 
   return (
     <div className={styles.container}>

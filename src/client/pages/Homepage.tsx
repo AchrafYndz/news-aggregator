@@ -140,6 +140,7 @@ export default function Homepage() {
                 {searched ? null : (
                     <div>
                         <MultiSelect
+                            className={styles.excludeMultiselect}
                             options={rssOptions}
                             value={selected}
                             labelledBy={"Selected"}
