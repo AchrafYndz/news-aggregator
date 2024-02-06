@@ -1,8 +1,67 @@
-# A news aggregator
+<div align="center">
+  <a href="https://github.com/github_username/chess">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-A React webapp that combines news sources, using their RSS feeds. It fetches the data from an API made with Flask. It bases the recommended contents on the user's visits to the site, creating a personalized experience.
+<h3 align="center">News Aggregator</h3>
 
-# Quick start
+  <p align="center">
+    Fetches news from various sources and displays them in a single webapp.
+    <br />
+    <a href="#demo">View Demo</a>
+    ·
+    <a href="https://github.com/AchrafYndz/news-aggregator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/AchrafYndz/aggregator/issues">Request Feature</a>
+  </p>
+</div>
+
+<p align="center">
+  <img src="images/homepage.png" alt="chess screenshot" width="600"/>
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/) <img src="images/flask.svg" alt="Flask Icon" width="16" height="16">
+* [React](https://reactjs.org/) <img src="images/react.svg" alt="React Icon" width="16" height="16">
+* [Vite](https://vitejs.dev/) <img src="images/vite.svg" alt="Vite Icon" width="16" height="16">
+* [Postgres](https://www.postgresql.org/) <img src="images/postgres.svg" alt="Postgres Icon" width="16" height="16">
+* [Gunicorn](https://gunicorn.org/) <img src="images/gunicorn.svg" alt="Gunicorn Icon" width="16" height="16">
+* [Nginx](https://www.nginx.com/) <img src="images/nginx.svg" alt="Nginx Icon" width="16" height="16">
+
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; padding-right: 20px;">
+    
+### Features
+
+* Fetches articles from various news sources
+* Admins can add new sources
+* Users can sign up
+* Articles get recommended based on user's history
+* Users can exclude sources from their feed
+* Similar articles are grouped together
+* Users have the option to switch sources on an article
+* Articles are labeled with tags
+* Users can filter by tags
+* Users can share an article on social media
+* and much more...
+  
+  </div>
+  <div style="flex: 2;">
+    
+<p align="center">
+  <img src="images/admin-dashboard.png" alt="chess screenshot" width="800"/>
+</p>
+  
+  </div>
+</div>
+
+
+
+## Getting started
 
 Copy the repository to your local machine, and run the following commands:
 
@@ -46,19 +105,18 @@ sudo systemctl restart postgresql
 
 ### 3. Download Dependencies
 
-We shall first install the dependencies for the API:
+We will first install the dependencies for the API:
 
 ```bash
 virtualenv -p python3 env
 source env/bin/activate
 pip3 install -r requirements.txt
+pip install -e .
 ```
 
-Then, we shall install the dependencies for the webapp:
+Then, we will install the dependencies for the webapp:
 
 ```bash
-npm install
-# or if you have yarn installed
 yarn
 ```
 
@@ -75,8 +133,6 @@ Then visit http://localhost:8080
 
 ```bash
 cd src/client
-npm start
-# or if you have yarn installed
 yarn start
 ```
 
@@ -102,7 +158,7 @@ sudo su - app
 
 #### 3. Clone the application in /home/app
 ```bash
-git clone https://github.com/yousmii/News-App
+git clone https://github.com/AchrafYndz/News-App
 ```
 
 

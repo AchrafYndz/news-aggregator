@@ -1,5 +1,4 @@
 import time
-
 import dateparser
 from datetime import datetime, timedelta
 import re
@@ -9,6 +8,7 @@ import psycopg2
 from bs4 import BeautifulSoup
 
 from link_articles import link_articles
+
 
 def scrape():
     print("running scraper🥱..")
@@ -132,6 +132,6 @@ if __name__ == "__main__":
         port='5432',
         database='dbtutor'
     )
-    while True:
-        scrape()
-        time.sleep(300)
+    # while True:
+    scrape()
+        # time.sleep(300)

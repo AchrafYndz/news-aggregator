@@ -46,4 +46,8 @@ News_app.egg-info/*
 .0
 .current_record
 .records
+
+doc/
+reports/
+
 ```
