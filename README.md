@@ -20,8 +20,6 @@
   <img src="images/homepage.png" alt="chess screenshot" width="600"/>
 </p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/) <img src="images/flask.svg" alt="Flask Icon" width="16" height="16">
