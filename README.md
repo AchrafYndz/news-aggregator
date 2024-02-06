@@ -8,8 +8,6 @@
   <p align="center">
     Fetches news from various sources and displays them in a single webapp.
     <br />
-    <a href="#demo">View Demo</a>
-    ·
     <a href="https://github.com/AchrafYndz/news-aggregator/issues">Report Bug</a>
     ·
     <a href="https://github.com/AchrafYndz/aggregator/issues">Request Feature</a>
