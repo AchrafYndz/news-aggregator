@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/github_username/chess">
+  <a href="https://github.com/AchrafYndz/news-aggregator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
